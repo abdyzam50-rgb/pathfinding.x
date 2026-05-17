@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "pathfinding-x",
+  "version": "${version}",
+  "name": "PathfindingX",
+  "description": "Baritone-inspired pathfinding framework with custom goals, HUD rendering, config, and keybinds.",
+  "authors": ["abdyzam50-rgb"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "com.abdy2.pathfindingx.PathfindingXMod"
+      }
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.9",
+    "java": ">=21",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=1.13.11+kotlin.2.3.21"
+  }
+}
