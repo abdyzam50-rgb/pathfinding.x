@@ -1,0 +1,7 @@
+{
+  "key.category.pathfinding-x": "PathfindingX",
+  "key.pathfinding-x.cancel": "Cancel Pathfinding",
+  "key.pathfinding-x.toggle_render": "Toggle Path Render",
+  "key.pathfinding-x.recompute": "Recompute Path",
+  "key.pathfinding-x.toggle_hud": "Toggle HUD"
+}
